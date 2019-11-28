@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E30AEEFB238F80C60098EBB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E30AEEFA238F80C60098EBB0 /* AppDelegate.m */; };
+		E30AEEFE238F80C60098EBB0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E30AEEFD238F80C60098EBB0 /* SceneDelegate.m */; };
+		E30AEF01238F80C60098EBB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E30AEF00238F80C60098EBB0 /* ViewController.m */; };
+		E30AEF04238F80C60098EBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30AEF02238F80C60098EBB0 /* Main.storyboard */; };
+		E30AEF06238F80C80098EBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E30AEF05238F80C80098EBB0 /* Assets.xcassets */; };
+		E30AEF09238F80C90098EBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E30AEF07238F80C90098EBB0 /* LaunchScreen.storyboard */; };
+		E30AEF0C238F80C90098EBB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E30AEF0B238F80C90098EBB0 /* main.m */; };
+		E30AEF13238F81E10098EBB0 /* liblibPython.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E30AEF12238F81E10098EBB0 /* liblibPython.a */; };
+		E30AEF1A238F82220098EBB0 /* python in Resources */ = {isa = PBXBuildFile; fileRef = E30AEF19238F82220098EBB0 /* python */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E30AEEF6238F80C60098EBB0 /* OCInvokePython.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCInvokePython.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30AEEF9238F80C60098EBB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E30AEEFA238F80C60098EBB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E30AEEFC238F80C60098EBB0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E30AEEFD238F80C60098EBB0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E30AEEFF238F80C60098EBB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E30AEF00238F80C60098EBB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E30AEF03238F80C60098EBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E30AEF05238F80C80098EBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E30AEF08238F80C90098EBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E30AEF0A238F80C90098EBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30AEF0B238F80C90098EBB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E30AEF12238F81E10098EBB0 /* liblibPython.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibPython.a; path = "../../../Library/Developer/Xcode/DerivedData/OCInvokePython-afigkabfbruwipgblsgvphkpksqw/Build/Products/Debug-iphonesimulator/liblibPython.a"; sourceTree = "<group>"; };
+		E30AEF15238F81FF0098EBB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E30AEF17238F82050098EBB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E30AEF19238F82220098EBB0 /* python */ = {isa = PBXFileReference; lastKnownFileType = folder; path = python; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E30AEEF3238F80C60098EBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30AEF13238F81E10098EBB0 /* liblibPython.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E30AEEED238F80C60098EBB0 = {
+			isa = PBXGroup;
+			children = (
+				E30AEF12238F81E10098EBB0 /* liblibPython.a */,
+				E30AEEF8238F80C60098EBB0 /* OCInvokePython */,
+				E30AEEF7238F80C60098EBB0 /* Products */,
+				E30AEF14238F81FE0098EBB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E30AEEF7238F80C60098EBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E30AEEF6238F80C60098EBB0 /* OCInvokePython.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E30AEEF8238F80C60098EBB0 /* OCInvokePython */ = {
+			isa = PBXGroup;
+			children = (
+				E30AEF19238F82220098EBB0 /* python */,
+				E30AEEF9238F80C60098EBB0 /* AppDelegate.h */,
+				E30AEEFA238F80C60098EBB0 /* AppDelegate.m */,
+				E30AEEFC238F80C60098EBB0 /* SceneDelegate.h */,
+				E30AEEFD238F80C60098EBB0 /* SceneDelegate.m */,
+				E30AEEFF238F80C60098EBB0 /* ViewController.h */,
+				E30AEF00238F80C60098EBB0 /* ViewController.m */,
+				E30AEF02238F80C60098EBB0 /* Main.storyboard */,
+				E30AEF05238F80C80098EBB0 /* Assets.xcassets */,
+				E30AEF07238F80C90098EBB0 /* LaunchScreen.storyboard */,
+				E30AEF0A238F80C90098EBB0 /* Info.plist */,
+				E30AEF0B238F80C90098EBB0 /* main.m */,
+			);
+			path = OCInvokePython;
+			sourceTree = "<group>";
+		};
+		E30AEF14238F81FE0098EBB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E30AEF17238F82050098EBB0 /* Foundation.framework */,
+				E30AEF15238F81FF0098EBB0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E30AEEF5238F80C60098EBB0 /* OCInvokePython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30AEF0F238F80C90098EBB0 /* Build configuration list for PBXNativeTarget "OCInvokePython" */;
+			buildPhases = (
+				E30AEEF2238F80C60098EBB0 /* Sources */,
+				E30AEEF3238F80C60098EBB0 /* Frameworks */,
+				E30AEEF4238F80C60098EBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCInvokePython;
+			productName = OCInvokePython;
+			productReference = E30AEEF6238F80C60098EBB0 /* OCInvokePython.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E30AEEEE238F80C60098EBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = nari;
+				TargetAttributes = {
+					E30AEEF5238F80C60098EBB0 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = E30AEEF1238F80C60098EBB0 /* Build configuration list for PBXProject "OCInvokePython" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E30AEEED238F80C60098EBB0;
+			productRefGroup = E30AEEF7238F80C60098EBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E30AEEF5238F80C60098EBB0 /* OCInvokePython */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E30AEEF4238F80C60098EBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30AEF1A238F82220098EBB0 /* python in Resources */,
+				E30AEF09238F80C90098EBB0 /* LaunchScreen.storyboard in Resources */,
+				E30AEF06238F80C80098EBB0 /* Assets.xcassets in Resources */,
+				E30AEF04238F80C60098EBB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E30AEEF2238F80C60098EBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30AEF01238F80C60098EBB0 /* ViewController.m in Sources */,
+				E30AEEFB238F80C60098EBB0 /* AppDelegate.m in Sources */,
+				E30AEF0C238F80C90098EBB0 /* main.m in Sources */,
+				E30AEEFE238F80C60098EBB0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E30AEF02238F80C60098EBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E30AEF03238F80C60098EBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E30AEF07238F80C90098EBB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E30AEF08238F80C90098EBB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E30AEF0D238F80C90098EBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E30AEF0E238F80C90098EBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E30AEF10238F80C90098EBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F3FYFMFJ2;
+				HEADER_SEARCH_PATHS = (
+					libPython,
+					libPython/Include,
+				);
+				INFOPLIST_FILE = OCInvokePython/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = nari.com.OCInvokePython;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E30AEF11238F80C90098EBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F3FYFMFJ2;
+				HEADER_SEARCH_PATHS = (
+					libPython,
+					libPython/Include,
+				);
+				INFOPLIST_FILE = OCInvokePython/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = nari.com.OCInvokePython;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E30AEEF1238F80C60098EBB0 /* Build configuration list for PBXProject "OCInvokePython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30AEF0D238F80C90098EBB0 /* Debug */,
+				E30AEF0E238F80C90098EBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E30AEF0F238F80C90098EBB0 /* Build configuration list for PBXNativeTarget "OCInvokePython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30AEF10238F80C90098EBB0 /* Debug */,
+				E30AEF11238F80C90098EBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E30AEEEE238F80C60098EBB0 /* Project object */;
+}
